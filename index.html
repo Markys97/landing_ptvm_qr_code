@@ -24,8 +24,8 @@
       }
 
       body {
-        font-family: "Space Grotesk", "Inter", system-ui, -apple-system, BlinkMacSystemFont,
-          "Segoe UI", sans-serif;
+        font-family: "Space Grotesk", "Inter", system-ui, -apple-system,
+          BlinkMacSystemFont, "Segoe UI", sans-serif;
         background: var(--noir);
         color: var(--blanc);
         line-height: 1.6;
@@ -107,7 +107,11 @@
       }
 
       .btn-primary {
-        background: linear-gradient(135deg, rgba(61, 213, 255, 0.2), rgba(16, 179, 240, 0.4));
+        background: linear-gradient(
+          135deg,
+          rgba(61, 213, 255, 0.2),
+          rgba(16, 179, 240, 0.4)
+        );
         border-color: rgba(61, 213, 255, 0.4);
       }
 
@@ -120,8 +124,16 @@
 
       main {
         position: relative;
-        background: radial-gradient(circle at 20% 20%, rgba(16, 179, 240, 0.15), transparent 45%),
-          radial-gradient(circle at 80% 0%, rgba(255, 255, 255, 0.06), transparent 35%),
+        background: radial-gradient(
+            circle at 20% 20%,
+            rgba(16, 179, 240, 0.15),
+            transparent 45%
+          ),
+          radial-gradient(
+            circle at 80% 0%,
+            rgba(255, 255, 255, 0.06),
+            transparent 35%
+          ),
           var(--noir-profond);
       }
 
@@ -144,7 +156,11 @@
         content: "";
         position: absolute;
         inset: 0;
-        background-image: linear-gradient(110deg, rgba(5, 5, 5, 0.85), rgba(5, 5, 5, 0.4)),
+        background-image: linear-gradient(
+            110deg,
+            rgba(5, 5, 5, 0.85),
+            rgba(5, 5, 5, 0.4)
+          ),
           url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1600&q=80");
         background-size: cover;
         background-position: center;
@@ -230,7 +246,11 @@
         content: "";
         position: absolute;
         inset: 0;
-        background: linear-gradient(135deg, rgba(61, 213, 255, 0.12), transparent 60%);
+        background: linear-gradient(
+          135deg,
+          rgba(61, 213, 255, 0.12),
+          transparent 60%
+        );
         opacity: 0;
         transition: var(--transition);
       }
@@ -334,7 +354,11 @@
         content: "";
         position: absolute;
         inset: 0;
-        background: linear-gradient(160deg, rgba(5, 5, 5, 0.2), rgba(5, 5, 5, 0.9));
+        background: linear-gradient(
+          160deg,
+          rgba(5, 5, 5, 0.2),
+          rgba(5, 5, 5, 0.9)
+        );
         z-index: 1;
       }
 
@@ -480,6 +504,7 @@
         .nav-links {
           flex-wrap: wrap;
           justify-content: center;
+          gap: 0.5rem;
         }
       }
     </style>
@@ -505,12 +530,14 @@
             <p class="eyebrow">Mouvement streetwear</p>
             <h1 id="hero-title">Prends ta vie en main</h1>
             <p>
-              Un manifeste pour les esprits libres qui veulent bâtir, inspirer et élever. PTVEM
-              transforme un mantra en énergie de rue, en guide intérieur et en uniformes pour
-              celles et ceux qui osent agir.
+              Un manifeste pour les esprits libres qui veulent bâtir, inspirer
+              et élever. PTVEM transforme un mantra en énergie de rue, en guide
+              intérieur et en uniformes pour celles et ceux qui osent agir.
             </p>
             <div class="hero-cta">
-              <a href="#manifeste" class="btn btn-primary">Découvrir la vision</a>
+              <a href="#manifeste" class="btn btn-primary"
+                >Découvrir la vision</a
+              >
               <a href="#collection" class="btn">Explorer les pièces</a>
             </div>
           </div>
@@ -519,16 +546,22 @@
             <strong>Construire</strong>
             <strong>Inspirer</strong>
             <strong>Élever</strong>
-            <p>Chaque pièce porte cette boussole. Chaque action laisse des gens plus forts.</p>
+            <p>
+              Chaque pièce porte cette boussole. Chaque action laisse des gens
+              plus forts.
+            </p>
           </div>
         </section>
 
         <section id="manifeste" aria-labelledby="manifeste-title">
           <p class="eyebrow">Manifesto</p>
-          <h2 class="section-title" id="manifeste-title">Aider les autres à améliorer leur vie</h2>
+          <h2 class="section-title" id="manifeste-title">
+            Aider les autres à améliorer leur vie
+          </h2>
           <p class="section-desc">
-            Notre mission : contribuer, guider et laisser derrière nous des personnes plus solides.
-            Ce manifeste est ta promesse envers toi-même et envers le crew qui t’entoure.
+            Notre mission : contribuer, guider et laisser derrière nous des
+            personnes plus solides. Ce manifeste est ta promesse envers toi-même
+            et envers le crew qui t’entoure.
           </p>
           <div class="manifeste-grid">
             <article class="manifeste-card" data-animate>
@@ -537,11 +570,17 @@
             </article>
             <article class="manifeste-card" data-animate>
               <h3>But</h3>
-              <p>Grandir en faisant grandir les autres. Tu montes, tu tires tout le monde vers le haut.</p>
+              <p>
+                Grandir en faisant grandir les autres. Tu montes, tu tires tout
+                le monde vers le haut.
+              </p>
             </article>
             <article class="manifeste-card" data-animate>
               <h3>Vision finale</h3>
-              <p>Laisser derrière toi une trace humaine : des gens plus forts, plus confiants, plus libres.</p>
+              <p>
+                Laisser derrière toi une trace humaine : des gens plus forts,
+                plus confiants, plus libres.
+              </p>
             </article>
             <article class="manifeste-card" data-animate>
               <h3>Méthode</h3>
@@ -554,43 +593,57 @@
           <p class="eyebrow">Les 5 piliers</p>
           <h2 class="section-title" id="pillars-title">Le mindset PTVEM</h2>
           <p class="section-desc">
-            Cinq engagements pour garder le cap, du studio de création aux bancs de l’école en
-            passant par le run nocturne.
+            Cinq engagements pour garder le cap, du studio de création aux bancs
+            de l’école en passant par le run nocturne.
           </p>
           <div class="pillars-grid">
             <article class="pillar" data-animate>
               <div class="pillar-number">01</div>
               <div>
                 <h4>S’améliorer soi-même</h4>
-                <p>Travailler son corps, son mental, son art. Pas de posture, que du progrès réel.</p>
+                <p>
+                  Travailler son corps, son mental, son art. Pas de posture, que
+                  du progrès réel.
+                </p>
               </div>
             </article>
             <article class="pillar" data-animate>
               <div class="pillar-number">02</div>
               <div>
                 <h4>Comprendre avant d’agir</h4>
-                <p>Observer la situation, écouter les besoins, frapper ensuite.</p>
+                <p>
+                  Observer la situation, écouter les besoins, frapper ensuite.
+                </p>
               </div>
             </article>
             <article class="pillar" data-animate>
               <div class="pillar-number">03</div>
               <div>
                 <h4>Transmettre ce que tu sais</h4>
-                <p>Partage de skills, mentoring, retours d’expérience : la connaissance circule.</p>
+                <p>
+                  Partage de skills, mentoring, retours d’expérience : la
+                  connaissance circule.
+                </p>
               </div>
             </article>
             <article class="pillar" data-animate>
               <div class="pillar-number">04</div>
               <div>
                 <h4>Créer des solutions concrètes</h4>
-                <p>Construire des outils, des événements, des produits utiles à la communauté.</p>
+                <p>
+                  Construire des outils, des événements, des produits utiles à
+                  la communauté.
+                </p>
               </div>
             </article>
             <article class="pillar" data-animate>
               <div class="pillar-number">05</div>
               <div>
                 <h4>Encourager et valoriser</h4>
-                <p>Chaque réussite mérite d’être célébrée. On pousse, on soutient, on élève.</p>
+                <p>
+                  Chaque réussite mérite d’être célébrée. On pousse, on
+                  soutient, on élève.
+                </p>
               </div>
             </article>
           </div>
@@ -599,27 +652,39 @@
             <article class="method-step" data-animate>
               <span>1</span>
               <h4>Diagnostiquer</h4>
-              <p>Fais le point sur ta journée, identifie ce qui mérite d’être construit ou réparé.</p>
+              <p>
+                Fais le point sur ta journée, identifie ce qui mérite d’être
+                construit ou réparé.
+              </p>
             </article>
             <article class="method-step" data-animate>
               <span>2</span>
               <h4>Agir</h4>
-              <p>Lance une action concrète, même minuscule : écrire, entraîner, appeler, apprendre.</p>
+              <p>
+                Lance une action concrète, même minuscule : écrire, entraîner,
+                appeler, apprendre.
+              </p>
             </article>
             <article class="method-step" data-animate>
               <span>3</span>
               <h4>Transmettre</h4>
-              <p>Partage ton avancée, inspire ton cercle, laisse une trace qui servira demain.</p>
+              <p>
+                Partage ton avancée, inspire ton cercle, laisse une trace qui
+                servira demain.
+              </p>
             </article>
           </div>
         </section>
 
         <section id="collection" aria-labelledby="collection-title">
           <p class="eyebrow">Collection capsule</p>
-          <h2 class="section-title" id="collection-title">Le uniforme du mouvement</h2>
+          <h2 class="section-title" id="collection-title">
+            Le uniforme du mouvement
+          </h2>
           <p class="section-desc">
-            Matières premium, silhouettes utilitaires, sérigraphies qui portent le manifeste. Des
-            pièces pensées pour la rue, l’atelier, l’after training.
+            Matières premium, silhouettes utilitaires, sérigraphies qui portent
+            le manifeste. Des pièces pensées pour la rue, l’atelier, l’after
+            training.
           </p>
           <div class="collection-grid">
             <article class="collection-card" data-animate>
@@ -647,7 +712,9 @@
                 <div>
                   <p class="collection-label">Accessoires</p>
                   <h3 class="collection-title">Night run pack</h3>
-                  <p>Bonnet réfléchissant + bracelet QR pour trouver ton crew.</p>
+                  <p>
+                    Bonnet réfléchissant + bracelet QR pour trouver ton crew.
+                  </p>
                 </div>
                 <a href="#cta" class="btn btn-primary">Précommander</a>
               </div>
@@ -657,27 +724,42 @@
 
         <section aria-labelledby="lifestyle-title">
           <p class="eyebrow">Lifestyle</p>
-          <h2 class="section-title" id="lifestyle-title">Du skatepark à la salle de classe</h2>
+          <h2 class="section-title" id="lifestyle-title">
+            Du skatepark à la salle de classe
+          </h2>
           <p class="section-desc">
-            Les scènes de vie PTVEM : mentorat improvisé, nuits de travail, sessions sport, moments
-            de fête où l’on veille les uns sur les autres.
+            Les scènes de vie PTVEM : mentorat improvisé, nuits de travail,
+            sessions sport, moments de fête où l’on veille les uns sur les
+            autres.
           </p>
           <div class="lifestyle-grid">
             <article class="lifestyle-card" data-animate>
               <h4>Skate & création</h4>
-              <p>Vibes urbaines, musique forte, idées qui prennent forme à ciel ouvert.</p>
+              <p>
+                Vibes urbaines, musique forte, idées qui prennent forme à ciel
+                ouvert.
+              </p>
             </article>
             <article class="lifestyle-card" data-animate>
               <h4>Classe & transmission</h4>
-              <p>Des élèves autour d’un mentor : on partage des plans, des lectures, des outils.</p>
+              <p>
+                Des élèves autour d’un mentor : on partage des plans, des
+                lectures, des outils.
+              </p>
             </article>
             <article class="lifestyle-card" data-animate>
               <h4>Run nocturne</h4>
-              <p>On traverse la ville ensemble. Respirer, discuter, relâcher la pression.</p>
+              <p>
+                On traverse la ville ensemble. Respirer, discuter, relâcher la
+                pression.
+              </p>
             </article>
             <article class="lifestyle-card" data-animate>
               <h4>Night life</h4>
-              <p>Le mouvement vit aussi dans les clubs et les fêtes privées. Soutien mutuel.</p>
+              <p>
+                Le mouvement vit aussi dans les clubs et les fêtes privées.
+                Soutien mutuel.
+              </p>
             </article>
           </div>
 
@@ -686,8 +768,9 @@
               <p class="eyebrow">Crew access</p>
               <h3 class="section-title">Scanne et rejoins</h3>
               <p>
-                Un QR code pour capter les drops, les sessions mentoring et les évènements privés.
-                Collé sur chaque pièce pour connecter instantanément.
+                Un QR code pour capter les drops, les sessions mentoring et les
+                évènements privés. Collé sur chaque pièce pour connecter
+                instantanément.
               </p>
             </div>
             <div class="qr-code" aria-hidden="true"></div>
@@ -697,11 +780,13 @@
         <section class="cta-final" id="cta" aria-labelledby="cta-title">
           <p class="eyebrow">Ready ?</p>
           <h2 id="cta-title">Prends ta vie en main maintenant</h2>
-          <p class="section-desc" style="margin: 0 auto 2rem;">
-            Reçois l’accès anticipé aux prochains drops, aux masterclass PTVEM et aux missions pour
-            contribuer à la communauté.
+          <p class="section-desc" style="margin: 0 auto 2rem">
+            Reçois l’accès anticipé aux prochains drops, aux masterclass PTVEM
+            et aux missions pour contribuer à la communauté.
           </p>
-          <a href="mailto:hello@ptvem.com" class="btn btn-primary">Je rejoins le mouvement</a>
+          <a href="mailto:hello@ptvem.com" class="btn btn-primary"
+            >Je rejoins le mouvement</a
+          >
         </section>
       </main>
 
@@ -722,7 +807,9 @@
         { threshold: 0.2 }
       );
 
-      document.querySelectorAll("[data-animate]").forEach((el) => observer.observe(el));
+      document
+        .querySelectorAll("[data-animate]")
+        .forEach((el) => observer.observe(el));
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
   </body>
